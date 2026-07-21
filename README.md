@@ -2,7 +2,11 @@
 
 Desktop application built with [Tauri](https://tauri.app/) + React/Vite.
 
-**Latest version: `0.2.0`**
+**Latest version: `0.2.1`**
+
+> ⚠️ **0.2.1 is a diagnostic build**: it auto-opens a DevTools window on launch
+> to help debug a Linux blank-window issue on newer distros (Ubuntu 26.04 /
+> WebKitGTK 2.52). A clean build will replace it once that's resolved.
 
 ## Download
 
@@ -10,35 +14,35 @@ Desktop application built with [Tauri](https://tauri.app/) + React/Vite.
 
 | File | Description |
 |------|-------------|
-| [com-ai_0.2.0_x64-setup.exe](com-ai_0.2.0_x64-setup.exe) | Windows Installer (NSIS) — Recommended |
-| [com-ai_0.2.0_x64_en-US.msi](com-ai_0.2.0_x64_en-US.msi) | Windows Installer (MSI) |
+| [com-ai_0.2.1_x64-setup.exe](com-ai_0.2.1_x64-setup.exe) | Windows Installer (NSIS) — Recommended |
+| [com-ai_0.2.1_x64_en-US.msi](com-ai_0.2.1_x64_en-US.msi) | Windows Installer (MSI) |
 
 ### Linux
 
 | File | Description |
 |------|-------------|
-| [com-ai_0.2.0_amd64.deb](com-ai_0.2.0_amd64.deb) | Debian / Ubuntu package — Recommended |
-| [com-ai-0.2.0-1.x86_64.rpm](com-ai-0.2.0-1.x86_64.rpm) | Fedora / RHEL / openSUSE package |
-| [com-ai_0.2.0_amd64.AppImage](com-ai_0.2.0_amd64.AppImage) | Portable AppImage (any distro) |
+| [com-ai_0.2.1_amd64.deb](com-ai_0.2.1_amd64.deb) | Debian / Ubuntu package — Recommended |
+| [com-ai-0.2.1-1.x86_64.rpm](com-ai-0.2.1-1.x86_64.rpm) | Fedora / RHEL / openSUSE package |
+| [com-ai_0.2.1_amd64.AppImage](com-ai_0.2.1_amd64.AppImage) | Portable AppImage (any distro) |
 
 Install on Debian/Ubuntu:
 
 ```bash
-sudo apt install ./com-ai_0.2.0_amd64.deb
+sudo apt install ./com-ai_0.2.1_amd64.deb
 ```
 
 Or run the AppImage directly:
 
 ```bash
-chmod +x com-ai_0.2.0_amd64.AppImage
-./com-ai_0.2.0_amd64.AppImage
+chmod +x com-ai_0.2.1_amd64.AppImage
+./com-ai_0.2.1_amd64.AppImage
 ```
 
 ### macOS
 
 | File | Description |
 |------|-------------|
-| [com-ai_0.2.0_universal.dmg](com-ai_0.2.0_universal.dmg) | Universal (Apple Silicon + Intel) |
+| [com-ai_0.2.1_universal.dmg](com-ai_0.2.1_universal.dmg) | Universal (Apple Silicon + Intel) |
 
 ## Building from source
 
