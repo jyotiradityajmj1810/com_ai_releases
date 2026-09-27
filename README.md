@@ -2,7 +2,7 @@
 
 Desktop app for **Elite English Coach**, built with [Tauri](https://tauri.app/) + React/Vite.
 
-**Latest version: `0.4.3`** — [release notes](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest)
+**Latest version: `0.4.4`** — [release notes](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest)
 
 ### What's new in 0.4
 
@@ -20,8 +20,8 @@ Desktop app for **Elite English Coach**, built with [Tauri](https://tauri.app/) 
 
 | File | Description |
 |------|-------------|
-| [com-ai_0.4.3_x64-setup.exe](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest/download/com-ai_0.4.3_x64-setup.exe) | Windows installer (NSIS) — recommended |
-| [com-ai_0.4.3_x64_en-US.msi](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest/download/com-ai_0.4.3_x64_en-US.msi) | Windows installer (MSI) |
+| [com-ai_0.4.4_x64-setup.exe](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest/download/com-ai_0.4.4_x64-setup.exe) | Windows installer (NSIS) — recommended |
+| [com-ai_0.4.4_x64_en-US.msi](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest/download/com-ai_0.4.4_x64_en-US.msi) | Windows installer (MSI) |
 
 > **"Windows protected your PC"?** The installer isn't code-signed yet, so
 > Windows SmartScreen shows this for any new publisher. Click **More info**,
@@ -50,7 +50,11 @@ chmod +x com-ai_0.4.4_amd64.AppImage
 
 ### macOS
 
-A macOS build of 0.4.3 is not available yet.
+| File | Description |
+|------|-------------|
+| [com-ai_0.4.4_universal.dmg](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest/download/com-ai_0.4.4_universal.dmg) | Universal (Apple Silicon + Intel) |
+
+> **"Unidentified developer"?** The app isn't notarized yet. Right-click it, choose **Open**, then **Open** again (once only).
 
 ## Setup
 
