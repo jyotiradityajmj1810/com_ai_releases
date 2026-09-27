@@ -4,17 +4,15 @@ Desktop app for **Elite English Coach**, built with [Tauri](https://tauri.app/) 
 
 **Latest version: `0.4.3`** — [release notes](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/latest)
 
-### What's new in 0.4.3
+### What's new in 0.4
 
-- **Voice breaks eliminated**: PCM odd-byte carryover fixed; AudioContext pre-warmed; mid-turn swap deferred until the current sentence completes; VAD presets added (snappy / balanced / patient).
-- **Language lock**: Read-aloud synthesis strictly respects the configured language code and retries gracefully if the model rejects it.
-- **Live Analytics working**: Dashboard reflects active practice time and words learned immediately; streak and date tracking anchored to local system calendar.
-- **Optimized Memory**: Documents stored as metadata + pages separately so listing never loads full text; PDF scroll uses a height-estimate cache instead of a full DOM; alarm beep reuses one AudioContext.
-- **Data Backup & Migration**: Full export/import is atomic; onupgradeneeded v8 migration splits docs, normalises flashcards, backfills report transcriptIds, and cleans orphaned data.
-- **History Linked to Dialogue**: Session reports link to the correct transcript; consecutive same-role turns are coalesced in the transcript view.
-- **Session robustness**: Reconnect, cooldown, key-rotation, and pre-warm logic hardened against races (R1–R4).
+- **Reports even for long or dropped calls**, with Retry if a report fails.
+- **Fewer voice breaks**, and the coach **stays in English**.
+- **Full transcripts** for every session in History.
+- **Accurate analytics** in your local time, and **much lower memory use**.
+- **Backup & Restore** in Settings, plus automatic data upgrades.
 
-All 26 audited defects are fixed and covered by automated tests.
+> ⚠️ **0.4.3 was withdrawn.** Its update deleted the transcripts of older sessions. If you installed it, update to 0.4.4 now.
 
 ## Download
 
@@ -33,21 +31,21 @@ All 26 audited defects are fixed and covered by automated tests.
 
 | File | Description |
 |------|-------------|
-| [com-ai_0.4.1_amd64.deb](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.1/com-ai_0.4.1_amd64.deb) | Debian / Ubuntu package |
-| [com-ai-0.4.1-1.x86_64.rpm](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.1/com-ai-0.4.1-1.x86_64.rpm) | Fedora / RHEL / openSUSE package |
-| [com-ai_0.4.1_amd64.AppImage](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.1/com-ai_0.4.1_amd64.AppImage) | Portable AppImage (any distro) |
+| [com-ai_0.4.4_amd64.deb](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.4/com-ai_0.4.4_amd64.deb) | Debian / Ubuntu package |
+| [com-ai-0.4.4-1.x86_64.rpm](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.4/com-ai-0.4.4-1.x86_64.rpm) | Fedora / RHEL / openSUSE package |
+| [com-ai_0.4.4_amd64.AppImage](https://github.com/jyotiradityajmj1810/com_ai_releases/releases/download/v0.4.4/com-ai_0.4.4_amd64.AppImage) | Portable AppImage (any distro) |
 
 Install on Debian/Ubuntu:
 
 ```bash
-sudo apt install ./com-ai_0.4.1_amd64.deb
+sudo apt install ./com-ai_0.4.4_amd64.deb
 ```
 
 Or run the AppImage directly:
 
 ```bash
-chmod +x com-ai_0.4.1_amd64.AppImage
-./com-ai_0.4.1_amd64.AppImage
+chmod +x com-ai_0.4.4_amd64.AppImage
+./com-ai_0.4.4_amd64.AppImage
 ```
 
 ### macOS
